@@ -1,0 +1,6 @@
+LINK: https://www.npmjs.com/package/react-responsive-carousel
+NAME: React responsive carousel
+
+1. npm install react-responsive-carousel
+
+2. import "react-responsive-carousel/lib/styles/carousel.min.css"; to index.js

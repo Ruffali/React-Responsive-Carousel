@@ -1,0 +1,59 @@
+.rct .carousel.carousel-slider {
+    overflow: inherit;
+}
+
+.rct .carousel .slide {
+    background: #ffffff;
+}
+
+.rct .carousel li.slide .inside {
+    margin: 0 10px;
+}
+
+.rct .carousel .control-dots {
+    position: absolute;
+    bottom  : -38px;
+    z-index : 10;
+}
+
+.rct .carousel .control-dots .dot {
+    border       : 1px solid #333;
+    width        : 40px;
+    height       : 7px;
+    border-radius: 5px;
+    box-shadow   : none;
+}
+
+.rct .carousel .control-dots .dot.selected {
+    background: #333333;
+}
+
+.rct .carousel ul {
+    /* overflow: hidden; */
+    /* transform: inherit!important; */
+}
+
+.rct .carousel li.slide img {
+    width     : 100%;
+    object-fit: cover;
+}
+
+.rct .carousel .carousel-status {
+    display: none;
+}
+
+.rct .carousel .control-prev.control-arrow:before {
+    content: 'Evvel' !important;
+    border : none;
+}
+
+.rct .carousel .control-next.control-arrow:before {
+    content: 'Sonra';
+    border : none;
+}
+
+/* @media only screen and (max-width: 500px) {}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {} */
